@@ -11,3 +11,6 @@ Please follow the steps below to serve the model [Qwen2.5-Coder-0.5B-Instruct](h
 3. **Evaluation**:  
    - Use a sandbox environment(docker instance) to assess the pass rate of the HumanEval-X results obtained from the Qwen2.5-Coder-0.5B-Instruct model.  
    - This evaluation will help determine the effectiveness of the model's predictions.
+
+4. **Performance Improvement**
+   - Consider enhancing the performance of the inference and evaluation processes.
