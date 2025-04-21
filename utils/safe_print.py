@@ -2,7 +2,8 @@ import sys
 
 # --------------------------- 打印工具 --------------------------- #
 def safe_print(*args, **kwargs):
-    r"""安全打印，避免中文乱码"""
+    r"""safe print for non-UTF8 encodings.
+    This function ensures that the output is encoded correctly"""
     enc = (sys.stdout.encoding or "").lower()
     if enc.startswith("utf"):
         print(*args, **kwargs)
