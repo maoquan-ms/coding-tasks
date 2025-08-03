@@ -1,0 +1,31 @@
+─────────────────────────────────────────────────── tmp.benchmarks/2025-08-03-16-28-23--Qwen ────────────────────────────────────────────────────
+- dirname: 2025-08-03-16-28-23--Qwen
+  test_cases: 34
+  model: openai/Qwen/Qwen2.5-Coder-0.5B-Instruct
+  edit_format: whole
+  commit_hash: 5a65457-dirty
+  pass_rate_1: 0.0
+  pass_rate_2: 2.9
+  pass_num_1: 0
+  pass_num_2: 1
+  percent_cases_well_formed: 100.0
+  error_outputs: 9
+  num_malformed_responses: 0
+  num_with_malformed_responses: 0
+  user_asks: 29
+  lazy_comments: 0
+  syntax_errors: 0
+  indentation_errors: 0
+  exhausted_context_windows: 9
+  prompt_tokens: 485139
+  completion_tokens: 45402
+  test_timeouts: 0
+  total_tests: 225
+  command: aider --model openai/Qwen/Qwen2.5-Coder-0.5B-Instruct
+  date: 2025-08-03
+  versions: 0.85.3.dev
+  seconds_per_case: 53.6
+  total_cost: 0.0000
+
+costs: $0.0000/test-case, $0.00 total, $0.00 projected
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
